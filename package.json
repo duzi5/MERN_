@@ -1,0 +1,38 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "trabalhando com mern",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duzisnetto/MERN_.git"
+  },
+  "keywords": [
+    "mern",
+    "mango",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "Duzis Netto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duzisnetto/MERN_/issues"
+  },
+  "homepage": "https://github.com/duzisnetto/MERN_#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
